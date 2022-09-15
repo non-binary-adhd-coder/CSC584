@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Simple Registration without Confirmation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Simple Registration</h1>
+        Everything <b>YOU</b> do now is <del>not</del> for your <strong>FUTURE</strong>. <italic><u>Think about that</u> </italic>.
+        Please register to your instructor's student address book
+        <form method = "post" action ="/DBExample/SimpleRegistration ">
+            <p>Last Name<font color ="#FF0000">*</font>
+                <input type="text" name="lastName"><br/>
+                First Name<font color="#FF0000">*</font>
+                <input type="text" name="firstName"><br/>
+                MI<input type="text" name="mi" size="3"> 
+            </p>
+            <p>Telephone
+                <input type="text" name="telephone" size="20"><br/>
+                Email
+                <input type="text" name="email" size="28"><br/>
+            </p>
+            <p>Street<input type ="text" name="street" size="50">
+            </p>
+            <p>City<input type="text" name="city" size="23"><br/>
+                State
+                <select size ='1' name="state">
+                    <option value="Selangor">Selangor</option>
+                    <option value="Perak">Perak</option>
+                    <option value="Kedah">Kedah</option>
+                    <option value="Melaka">Melaka</option>
+                    <option value="Johor">Johor</option>
+                    <option value="Negeri Sembilan">Negeri Sembilan</option>
+                </select><br/>
+            </p>
+            <p>Post Code<input type="text" name="postcode" size="10"><br/><br/>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+        <p><font color="#FF0000">* required fields</font></p>
+    </body>
+</html>
